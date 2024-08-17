@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Whac a Mole</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div id="intro" class="intro">
+            <div id="intro-content" class="intro-content">
+                <img src="images/monty-mole.png" alt="monty-mole" class="mole">
+                <img src="images/piranha-plant.png" alt="piranha-plant" class="plant">
+                <h1><span>W</span>HAC A MOLE</h1>
+                <button id="play-button" class="play-button">
+                    <span class="button-text">Start</span>
+                    <img src="images/paper-airplane.png" alt="paper-airplane" class="plane">
+                </button>
+            </div>
+        </div>
+        <div id="game" class="hidden">
+            <h2 id="game-title" class="game-title">WHAC A MOLE</h2>
+            <div id="score-container" class="score-container">
+                <div id="scoreContainer" class="scoreContainer">Score: <span id="score" class="score">0</span></div>
+            </div>
+            <div id="timer" class="timer">Time: 30 s</div>
+            <div id="board" class="board"></div>
+        </div> 
+        <div id="gameOverModal" class="modal">
+            <div class="modal-content">
+                <h2>Game Over</h2>
+                <p>Your Score: <span id="finalScore" class="finalScore"></span></p>
+                <p>Highest Score: <span id="highestScore" class="highestScore"></span></p>
+                <button id="restartBtn" class="button-container">Start Again</button>
+            </div>
+        </div>
+    </body>
+</html>

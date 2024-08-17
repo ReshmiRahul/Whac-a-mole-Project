@@ -1,0 +1,9 @@
+# Whac-A-Mole Game
+
+-->> It is a browser based game where the player can score the points by clicking the mole.
+-->> If the player click on plant, then the game will end.
+-->> The game features a 30-second timer, score tracking and a highest score stored in local storage.
+-->> Click "start" button to start the game
+-->> Also provide a "Restart" button for try again.
+
+
